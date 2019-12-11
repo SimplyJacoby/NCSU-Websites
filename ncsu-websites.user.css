@@ -1,1 +1,377 @@
+/* ==UserStyle==
+@name           NCSU Websites
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A userstyle for NCSU websites
+@author         SimplyJacoby
+@homepageURL    https://github.com/SimplyJacoby/NCSU-Websites
+@supportURL     https://github.com/SimplyJacoby/NCSU-Websites/issues
+@updateURL      https://raw.githubusercontent.com/SimplyJacoby/NCSU-Websites/master/ncsu-websites.user.css
+@license        CC-BY-SA-4.0
+@preprocessor   default
+@var select bg-color "Main Background Color" {
+    "Arc Dark": "#383c4a",
+    "Atom One Dark (Default)*": "#21252b",
+    "Deep Dark": "#1A1A1A",
+    "Discord Dark": "#23272A",
+    "Dracula":"#282a36",
+    "Light": "#F3F3F4",
+    "Microsoft Dark": "#171717",
+    "Pink": "#fb607f",
+    "Custom": "var(--custom-bg-color)"
+} @var color custom-bg-color "Custom Main Background Color" #21252b
 
+@var select bg-2-color "Secondary Background Color" {
+    "Arc Dark": "#404552",
+    "Atom One Dark (Default)*": "#282C34",
+    "Deep Dark": "#222222",
+    "Discord Dark": "#36393F",
+    "Dracula":"#44475a",
+    "Light": "#ffffff",
+    "Microsoft Dark": "#1F1F1F",
+    "Pink": "#fe7f9c",
+    "Custom": "var(--custom-bg-2-color)"
+} @var color custom-bg-2-color "Custom Secondary Background Color" #282C34
+
+@var select bg-3-color "Tertiary Background Color" {
+    "Arc Dark": "#4b5162",
+    "Atom One Dark (Default)*": "#333842",
+    "Deep Dark": "#232938",
+    "Discord Dark": "#42464D",
+    "Dracula":"#686C8A",
+    "Light": "#FAFAFA",
+    "Microsoft Dark": "#272727",
+    "Pink": "#fca3b7",
+    "Custom": "var(--custom-bg-3-color)"
+} @var color custom-bg-3-color "Custom Tertiary Background Color" #333842
+
+@var select button-color "Button Color"{
+    "Arc Dark": "#5294e2",
+    "Atom One Dark (Default)*": "#3d424d",
+    "Deep Dark": "#006C69",
+    "Discord Dark": "#7289DA",
+    "Dracula":"#6272a4",
+    "Light": "#A8FFEE",
+    "Microsoft Dark": "#1073D6",
+    "Pink": "#de3163",
+    "Custom": "var(--custom-button-color)"
+} @var color custom-button-color "Custom Button Color" #303344
+
+@var select textarea-color "Text Input Background Color" {
+    "Arc Dark": "#7c818c",
+    "Atom One Dark (Default)*": "#3d424d",
+    "Deep Dark": "#006C69",
+    "Discord Dark": "#4A4D53",
+    "Dracula":"#81859E",
+    "Light": "#F2F2F2",
+    "Microsoft Dark": "#363636",
+    "Pink": "#de3163",
+    "Custom": "var(--custom-textarea-color)"
+} @var color custom-textarea-color "Custom Text Input Background Color" #303344
+
+@var select border-color "Border Color" {
+    "Arc Dark": "#4D596C",
+    "Atom One Dark (Default)*": "#4a515e",
+    "Deep Dark": "#454545",
+    "Discord Dark": "#3E4145",
+    "Dracula":"#1C1D24",
+    "Light": "#efefef",
+    "Microsoft Dark": "#333333",
+    "Pink": "#fbaed2",
+    "Custom": "var(--custom-border-color)"
+} @var color custom-border-color "Custom Border Color" #47474b
+
+@var select hover-color "Mouse Hover Color" {
+    "Arc Dark": "#2B7ADB",
+    "Atom One Dark (Default)*": "#4a515e",
+    "Deep Dark": "#016964",
+    "Discord Dark": "#6680D7",
+    "Dracula":"#596A9B",
+    "Light": "#79FFE4",
+    "Microsoft Dark": "#1A4B7D",
+    "Pink": "#ec5578",
+    "Custom": "var(--custom-hover-color)"
+} @var color custom-hover-color "Custom Mouse Hover Color" #434462
+
+@var select text-color "Text Color" {
+    "Arc Dark": "#ffffff",
+    "Atom One Dark (Default)*": "#D7E2EF",
+    "Deep Dark": "#D7E2EF",
+    "Discord Dark": "#ffffff",
+    "Dracula":"#f8f8f2",
+    "Light": "#2D2D2D",
+    "Microsoft Dark": "#ffffff",
+    "Pink": "#ffffff",
+    "Custom": "var(--custom-text-color)"
+} @var color custom-text-color "Custom Text Color" #D7E2EF
+
+@var select accent-color "Accent Color" {
+    "Arc Dark": "#DCD1FA",
+    "Atom One Dark (Default)*": "#ff6768",
+    "Deep Dark": "#4AC0FF",
+    "Discord Dark": "#2C6AA3",
+    "Dracula":"#8BE9FD",
+    "Light": "#488bdd",
+    "Microsoft Dark": "#97C0FF",
+    "Pink": "#73c2fb",
+    "Custom": "var(--custom-link-color)"
+} @var color custom-link-color "Link Text Color" #488bdd
+
+@var select link-hover-color "Link Text Hover Color" {
+    "Arc Dark": "#B79EF5",
+    "Atom One Dark (Default)*": "#c24e4e",
+    "Deep Dark": "#1AAEFF",
+    "Discord Dark": "#265C8F",
+    "Dracula":"#5FE0FC",
+    "Light": "#3686CD",
+    "Microsoft Dark": "#77ADFF",
+    "Pink": "#4da4e3",
+    "Custom": "var(--custom-link-hover-color)"
+} @var color custom-link-hover-color "Link Text Hover Color" #386ed0
+
+@var select moodle-font-family "Moodle Font Family" {"Arial":"Arial", "Arial Black":"Arial Black","Arial Narrow":"Arial Narrow", "Comic Sans":"Comic Sans MS", "Courier New":"Courier New","Fira Code":"Fira Code", "Georgia":"Georgia", "Helvetica":"Helvetica", "Impact":"Impact", "Lucida Console":"Lucida Console", "Times New Roman":"Times New Roman", "Trebuchet MS":"Trebuchet MS","Universe Light*":"UniversLight", "Verdana":"Verdana"}
+
+@var select wolfware-font-family "Wolfware Font Family" {"Arial":"Arial", "Arial Black":"Arial Black","Arial Narrow":"Arial Narrow", "Comic Sans":"Comic Sans MS", "Courier New":"Courier New", "Fira Code":"Fira Code", "Georgia":"Georgia", "Gotham HTF Book*":"gotham_htfbook", "Helvetica":"Helvetica", "Impact":"Impact", "Lucida Console":"Lucida Console", "Times New Roman":"Times New Roman", "Trebuchet MS":"Trebuchet MS",  "Verdana":"Verdana"}
+
+@var select shib-font-family "Shibboleth Font Family" {"Arial":"Arial", "Arial Black":"Arial Black","Arial Narrow":"Arial Narrow", "Comic Sans":"Comic Sans MS", "Courier New":"Courier New","Fira Code":"Fira Code", "Georgia":"Georgia", "Helvetica":"Helvetica", "Impact":"Impact", "Lucida Console":"Lucida Console", "Times New Roman":"Times New Roman", "Trebuchet MS":"Trebuchet MS", "Universe Light*":"UniversLight", "Verdana":"Verdana"}
+
+==/UserStyle== */
+
+@-moz-document url-prefix("https://wolfware.ncsu.edu") {
+    /* Insert code here... */
+}
+
+@-moz-document domain("moodle-courses1819.wolfware.ncsu.edu"), domain("moodle-projects.wolfware.ncsu.edu"), domain("moodle-courses1920.wolfware.ncsu.edu") {
+    :root {
+        --green: #3daf71;
+        --yellow: #b8c04a;
+        --red: #d85a5a;
+    }
+    a:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
+        color: var(--accent-color) !important;
+        text-decoration: none !important;
+        background-color: #0000 !important;
+    }
+    a:hover:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
+        color: var(--link-hover-color) !important;
+        text-decoration: none !important;
+    }
+    *:not(.page-header-headings) {
+        color: var(--text-color) !important;
+    }
+    #page {
+        background-color: var(--bg-color) !important;
+    }
+    .card {
+        background-color: var(--bg-2-color) !important;
+        border-color: #0000 !important;
+    }
+    .dashboard-card-footer {
+        background-color: var(--bg-3-color) !important;
+    }
+    .dashboard-card {
+        background-color: var(--bg-3-color) !important;
+    }
+    .dashboard-card:hover, .dashboard-card:hover .dashboard-card-footer {
+        background-color: var(--hover-color) !important;
+    }
+    .block-timeline .border-bottom {
+        border-color: var(--border-color) !important;
+    }
+    .block_html hr {
+        border-color: var(--border-color) !important;
+    }
+    
+    /* top navbar */
+    .navbar {
+        background-color: var(--bg-2-color) !important;
+    }
+    .navbar .btn {
+        background-color: var(--button-color) !important;
+        border: none !important;
+    }
+    .navbar .btn:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .navbar .dropdown-toggle:hover {
+        background-color: #0000 !important;
+    }
+    
+    /* dropdowns */
+    .dropdown-toggle {
+        border-color: var(--border-color) !important;
+    }
+    .dropdown-toggle:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .dropdown-menu {
+        background-color: var(--bg-3-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .dropdown-menu .dropdown-item {
+        background: none !important;
+    }
+    .dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item.active:hover {
+        background-color: var(--accent-color) !important;
+    }
+    .dropdown-menu .dropdown-item:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .dropdown-divider {
+        border-color: var(--border-color) !important;
+    }
+    .dropdown .btn:hover, .dropdown .btn:focus {
+        background-color: var(--hover-color) !important;
+    }
+    .form-control {
+        background-color: #0000 !important;
+        border-color: var(--border-color) !important;
+    }
+    .form-control:focus {
+        box-shadow: none !important;
+    }
+    .form-autocomplete-suggestions {
+        background-color: var(--bg-3-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    .form-autocomplete-suggestions li:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* pagination */
+    .pagination li a {
+        background-color: #0000 !important;
+        border-color: var(--border-color) !important;
+    }
+    .pagination .active, .pagination .active .page-link {
+        background-color: var(--hover-color) !important;
+        color: var(--accent-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .pagination .active:hover, .pagination .active .page-link:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .pagination li:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* select */
+    .select, .custom-select {
+        background-color: #0000 !important;
+        border-color: var(--border-color) !important;
+    }
+    .select:focus, .custom-select:focus {
+        box-shadow: none !important;
+    }
+    .select option, .custom-select option {
+        background-color: var(--bg-3-color) !important;
+    }
+    
+    /* buttons */
+    .btn {
+        background-color: var(--button-color) !important;
+        border-color: #0000 !important;
+    }
+    .btn:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* sidebar navigation */
+    #nav-drawer {
+        background-color: var(--bg-color) !important;
+    }
+    #nav-drawer .list-group {
+        background-color: var(--bg-2-color) !important;
+    }
+    #nav-drawer .list-group-item {
+        background: none !important;
+        border: none  !important;
+    }
+    #nav-drawer .list-group-item.active, #nav-drawer .list-group-item.active:hover {
+        background-color: var(--accent-color) !important;
+    }
+    #nav-drawer .list-group-item:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* page header box */
+    #page-header .card-block {
+        background-color: var(--bg-2-color) !important;
+        border-color: #0000 !important;
+    }
+    #page-header #page-navbar {
+        border-top-color: #0000 !important;
+    }
+    #page-navbar .singlebutton .btn {
+        background-color: var(--button-color) !important;
+        border: none !important;
+    }
+    #page-navbar .singlebutton .btn:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* course card */
+    #region-main {
+        background-color: vaR(--bg-2-color) !important;
+        border-color: #0000 !important;
+    }
+    #region-main .section {
+        border-bottom-color: var(--border-color) !important;
+    }
+    #region-main .section .instancename {
+        color: var(--accent-color) !important;
+    }
+    #region-main .section .instancename:hover {
+        color: var(--link-hover-color) !important;
+    }
+    
+    .node_category {
+        background-color: var(--bg-3-color) !important;
+        border-color: #0000 !important;
+    }
+    
+    /* tables */
+    .generaltable * {
+        border-color: var(--border-color) !important;
+    }
+    
+    /* assignments */
+    #page-mod-assign-view .submissionstatussubmitted, #page-mod-assign-view .submissiongraded, #page-mod-assign-view .earlysubmission {
+            background: var(--green) !important;
+    }
+
+    #page-mod-assign-view .submittedlate {
+        background: var(--red) !important;
+    }
+
+    #page-mod-assign-view .submissionlocked, #page-mod-assign-view .submissionstatusdraft, #page-mod-assign-view .submissionnotgraded {
+        background: var(--yellow) !important;
+    }
+
+    /* alert */
+    .alert-info {
+        background-color: var(--accent-color) !important;
+    }
+    
+    /* nav tabs */
+    .nav-tabs {
+        border-color: var(--border-color) !important;
+    }
+    .nav-tabs .nav-item .active {
+        background-color: var(--hover-color) !important;
+        border-color: #0000 !important;
+    }
+    .nav-tabs .nav-item a:hover,.nav-tabs .nav-item a:focus {
+        background-color: var(--hover-color) !important;
+        border-color: var(--hover-color) !important;
+    }
+    
+    /* footer */
+    #page-footer {
+        background-color: var(--bg-color) !important;
+    }
+}
+
+@-moz-document domain("shib.ncsu.edu") {
+    
+}
