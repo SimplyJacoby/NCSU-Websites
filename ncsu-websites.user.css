@@ -283,11 +283,11 @@
         background-color: var(--button-color) !important;
         border-color: #0000 !important;
     }
-    .btn-link, .btn-link:hover {
-        background-color: #0000 !important;
-    }
     .btn:hover {
         background-color: var(--hover-color) !important;
+    }
+    .btn-link, .btn-link:hover {
+        background-color: #0000 !important;
     }
     
     /* sidebar navigation */
@@ -510,10 +510,6 @@
         border-color: var(--border-color) !important;
     }
     .popover-header {
-        background-color: var(--bg-color) !important;
-        border-color: var(--border-color) !important;
-    }
-    .ally-tooltop {
         background-color: var(--bg-color) !important;
         border-color: var(--border-color) !important;
     }
