@@ -587,5 +587,32 @@
 }
 
 @-moz-document domain("shib.ncsu.edu") {
-    
+    body {
+        background-color: var(--bg-color) !important;
+    }
+    * {
+        color: var(--text-color) !important;
+    }
+    h2 {
+        color: var(--accent-color) !important;
+    }
+    a {
+        color: var(--accent-color) !important;
+    }
+    .shib-form {
+        background-color: var(--bg-2-color) !important;
+    }
+    #formSubmit {
+        background-color: var(--accent-color) !important;
+    }
+    .shib-footer {
+        background-color: var(--bg-2-color) !important;
+    }
+    .panel-body {
+        background-color: var(--bg-2-color) !important;
+    }
+    .form-control {
+        background-color: var(--textarea-color) !important;
+        border-color: var(--border-color) !important;
+    }
 }
