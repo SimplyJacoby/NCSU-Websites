@@ -146,10 +146,15 @@
         --green: #3daf71;
         --yellow: #b8c04a;
         --red: #d85a5a;
+        --faded-yellow: #aeb372;
+        --gray-color: #798497;
+        --dark-gray-color: #4a5775;
     }
     a:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
         color: var(--accent-color) !important;
         text-decoration: none !important;
+    }
+    p a {
         background-color: #0000 !important;
     }
     a:hover:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
@@ -238,6 +243,12 @@
         background-color: var(--hover-color) !important;
     }
     
+    /* input */
+    input[type=text] {
+        background-color: var(--textarea-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    
     /* pagination */
     .pagination li a {
         background-color: #0000 !important;
@@ -271,6 +282,9 @@
     .btn {
         background-color: var(--button-color) !important;
         border-color: #0000 !important;
+    }
+    .btn-link, .btn-link:hover {
+        background-color: #0000 !important;
     }
     .btn:hover {
         background-color: var(--hover-color) !important;
@@ -369,6 +383,206 @@
     /* footer */
     #page-footer {
         background-color: var(--bg-color) !important;
+    }
+    
+    /* file stuff */
+    .filemanager-container, .fp-content, .fp-navbar {
+        border: 1px solid var(--border-color) !important;
+    }
+    .filemanager .fp-navbar .filemanager-toolbar .btn:hover {
+        background: var(--hover-color) !important;
+    }
+    .fp-thumbnail {
+        border: none !important;
+    }
+    .fp-filename {
+        background-color: var(--bg-2-color) !important;
+    }
+    .filepicker-filelist {
+        background-color: var(--textarea-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    
+    /* dialogue popup */
+    .moodle-dialogue-content {
+        background-color: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .moodle-dialogue-hd {
+        border-color: var(--border-color) !important;
+    }
+    .nav-pills .active {
+        background-color: var(--accent-color) !important;
+    }
+    .moodle-dialogue-content .closebutton {
+        background-image: none !important;
+    }
+    
+    /* quizzes */
+    .quizreviewsummary th {
+        background-color: var(--button-color) !important;
+    }
+    .quizreviewsummary td {
+        background-color: var(--bg-3-color) !important;
+    }
+    .info {
+        background-color: var(--bg-3-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .content .formulation {
+        background-color: var(--bg-3-color) !important;
+    }
+    .content .outcome {
+        background-color: var(--faded-yellow) !important;
+    }
+    .qnbutton .thispageholder {
+        border-color: var(--border-color) !important;
+    }
+    .qnbutton.correct .trafficlight {
+        background-color: var(--green) !important;
+    }
+
+    .qnbutton.incorrect .trafficlight {
+        background-color: var(--red) !important;
+    }
+
+    .qnbutton.partiallycorrect .trafficlight {
+        background-color: var(--yellow) !important;
+    }
+
+    .qnbutton.answersaved .trafficlight {
+        background-color: var(--dark-gray-color) !important;
+    }
+
+    .qnbutton .trafficlight {
+        background-color: var(--gray-color) !important;
+    }
+    
+    /* notifications */
+    .popover-region-notifications .popover-region-container {
+        background-color: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .popover-region-toggle::after {
+        border-bottom-color: var(--bg-color) !important;
+        z-index: -1 !important;
+    }
+    .popover-region-header-container {
+        border-color: var(--border-color) !important;
+    }
+    .popover-region-footer-container {
+        border-color: var(--border-color) !important;
+        background-color: var(--bg-color) !important;
+    }
+    .popover-region-notifications .popover-region-footer-container:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* messages */
+    .message-drawer {
+        background-color: var(--bg-color) !important;
+    }
+    .message-drawer .body-container .bg-white {
+        background-color: var(--bg-color) !important;
+    }
+    .message-drawer .border-bottom {
+        border-color: var(--border-color) !important;
+    }
+    .message-drawer .input-group-text {
+        background-color: var(--textarea-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .message-drawer .form-control {
+        border-left: none !important;
+    }
+    
+    /* announcements */
+    .forumpost {
+        border-color: vaR(--border-color) !important;
+    }
+    .post .info {
+        background-color: #0000 !important;
+    }
+    
+    /* scrollover popup */
+    .popover {
+        background-color: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .popover-header {
+        background-color: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .ally-tooltop {
+        background-color: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    
+    /* modal */
+    .modal-content {
+        background-color: vaR(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .modal-header, .modal-footer {
+        border-color: var(--border-color) !important;
+    }
+    .modal-content .containsadvancedelements {
+        border-color: var(--border-color) !important;
+    }
+    
+    /* calendar selector */
+    .yui3-calendar-pane, .yui3-calendar-grid tbody td {
+        background-color: var(--bg-2-color) !important;
+    }
+    .yui3-calendar-header .yui3-calendarnav-nextmonth {
+        border-left-color: var(--border-color) !important;
+    }
+    .yui3-calendar-header .yui3-calendarnav-prevmonth {
+        border-right-color: var(--border-color) !important;
+    }
+    .yui3-calendar-header .yui3-calendarnav-nextmonth:hover {
+        border-left-color: var(--accent-color) !important;
+    }
+    .yui3-calendar-header .yui3-calendarnav-prevmonth:hover {
+        border-right-color: var(--accent-color) !important;
+    }
+    .yui3-calendar-grid * {
+        border-color: var(--border-color) !important;
+    }
+    .yui3-calendar-pane {
+        border: 1px solid var(--border-color) !important;
+    }
+    .yui3-calendar-content {
+        background: var(--bg-3-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    
+    /* calendar events key */
+    .calendar_filters li a span i {
+        color: var(--bg-color) !important;
+    }
+    
+    /* text editor */
+    .editor_atto_toolbar {
+        background-color: var(--bg-3-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .editor_atto_content {
+        background-color: var(--textarea-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .editor_atto_content_wrap {
+        border: none !important;
+    }
+    .editor_atto_toolbar button {
+        background-color: var(--button-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .editor_atto_toolbar button:hover {
+        background: var(--hover-color) !important;
+    }
+    .atto_group {
+        border-color: var(--border-color) !important;
     }
 }
 
