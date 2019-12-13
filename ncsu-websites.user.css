@@ -815,6 +815,9 @@
         background-color: var(--bg-3-color) !important;
         box-shadow: 0 5px 10px rgba(0, 0, 0, .25) !important;
     }
+    .ncstate-utility-bar-tools #search-submit {
+        border: none !important;
+    }
     
     /* announcements */
     .announcement {
