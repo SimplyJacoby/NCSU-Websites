@@ -55,7 +55,7 @@
     "Microsoft Dark": "#1073D6",
     "Pink": "#de3163",
     "Custom": "var(--custom-button-color)"
-} @var color custom-button-color "Custom Button Color" #303344
+} @var color custom-button-color "Custom Button Color" #3d424d
 
 @var select textarea-color "Text Input Background Color" {
     "Arc Dark": "#7c818c",
@@ -67,7 +67,7 @@
     "Microsoft Dark": "#363636",
     "Pink": "#de3163",
     "Custom": "var(--custom-textarea-color)"
-} @var color custom-textarea-color "Custom Text Input Background Color" #303344
+} @var color custom-textarea-color "Custom Text Input Background Color" #3d424d
 
 @var select border-color "Border Color" {
     "Arc Dark": "#4D596C",
@@ -79,7 +79,7 @@
     "Microsoft Dark": "#333333",
     "Pink": "#fbaed2",
     "Custom": "var(--custom-border-color)"
-} @var color custom-border-color "Custom Border Color" #47474b
+} @var color custom-border-color "Custom Border Color" #4a515e
 
 @var select hover-color "Mouse Hover Color" {
     "Arc Dark": "#2B7ADB",
@@ -91,7 +91,7 @@
     "Microsoft Dark": "#1A4B7D",
     "Pink": "#ec5578",
     "Custom": "var(--custom-hover-color)"
-} @var color custom-hover-color "Custom Mouse Hover Color" #434462
+} @var color custom-hover-color "Custom Mouse Hover Color" #4a515e
 
 @var select text-color "Text Color" {
     "Arc Dark": "#ffffff",
@@ -115,7 +115,7 @@
     "Microsoft Dark": "#97C0FF",
     "Pink": "#73c2fb",
     "Custom": "var(--custom-link-color)"
-} @var color custom-link-color "Link Text Color" #488bdd
+} @var color custom-link-color "Custom Accent Color" #ff6768
 
 @var select link-hover-color "Link Text Hover Color" {
     "Arc Dark": "#B79EF5",
@@ -127,13 +127,7 @@
     "Microsoft Dark": "#77ADFF",
     "Pink": "#4da4e3",
     "Custom": "var(--custom-link-hover-color)"
-} @var color custom-link-hover-color "Link Text Hover Color" #386ed0
-
-@var select moodle-font-family "Moodle Font Family" {"Arial":"Arial", "Arial Black":"Arial Black","Arial Narrow":"Arial Narrow", "Comic Sans":"Comic Sans MS", "Courier New":"Courier New","Fira Code":"Fira Code", "Georgia":"Georgia", "Helvetica":"Helvetica", "Impact":"Impact", "Lucida Console":"Lucida Console", "Times New Roman":"Times New Roman", "Trebuchet MS":"Trebuchet MS","Universe Light*":"UniversLight", "Verdana":"Verdana"}
-
-@var select wolfware-font-family "Wolfware Font Family" {"Arial":"Arial", "Arial Black":"Arial Black","Arial Narrow":"Arial Narrow", "Comic Sans":"Comic Sans MS", "Courier New":"Courier New", "Fira Code":"Fira Code", "Georgia":"Georgia", "Gotham HTF Book*":"gotham_htfbook", "Helvetica":"Helvetica", "Impact":"Impact", "Lucida Console":"Lucida Console", "Times New Roman":"Times New Roman", "Trebuchet MS":"Trebuchet MS",  "Verdana":"Verdana"}
-
-@var select shib-font-family "Shibboleth Font Family" {"Arial":"Arial", "Arial Black":"Arial Black","Arial Narrow":"Arial Narrow", "Comic Sans":"Comic Sans MS", "Courier New":"Courier New","Fira Code":"Fira Code", "Georgia":"Georgia", "Helvetica":"Helvetica", "Impact":"Impact", "Lucida Console":"Lucida Console", "Times New Roman":"Times New Roman", "Trebuchet MS":"Trebuchet MS", "Universe Light*":"UniversLight", "Verdana":"Verdana"}
+} @var color custom-link-hover-color "Custom Link Text Hover Color" #c24e4e
 
 ==/UserStyle== */
 
