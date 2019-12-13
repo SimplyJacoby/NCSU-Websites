@@ -131,10 +131,6 @@
 
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://wolfware.ncsu.edu") {
-    /* Insert code here... */
-}
-
 @-moz-document domain("moodle-courses1819.wolfware.ncsu.edu"), domain("moodle-projects.wolfware.ncsu.edu"), domain("moodle-courses1920.wolfware.ncsu.edu") {
     :root {
         --green: #3daf71;
