@@ -612,3 +612,342 @@
         border-color: var(--border-color) !important;
     }
 }
+@-moz-document url-prefix("https://wolfware.ncsu.edu") {
+    body {
+        background-color: var(--bg-color) !important;
+    }
+    * {
+        color: var(--text-color) !important;
+        text-shadow: none !important;
+    }
+    .maincontent-wrapper {
+        background: var(--bg-color) !important;
+    }
+    #leftcolumn , #rightcolumn .row, #maincontent, #rightcolumn, .toolbox-wrapper {
+        background: var(--bg-2-color) !important;
+    }
+    .toolbox-nav li a{
+        background-color: var(--bg-3-color) !important;
+        border: none !important;
+    }
+    .toolbox-nav li a:hover {
+        background-color: var(--hover-color) !important;
+        opacity: 1 !important;
+    }
+    .toolbox-nav .active a {
+        background-color: var(--accent-color) !important;
+    }
+    .toolbox-nav .active a:hover {
+        background-color: var(--accent-color) !important;
+    }
+    .toolbox-nav {
+        margin-top: 10% !important;
+    }
+    footer {
+        background-color: var(--bg-color) !important;
+    }
+    
+    /* course block */
+    .course-block {
+        background-color: var(--bg-3-color) !important;
+    }
+    .course-block .course-listing, .course-block .main-info {
+        background-color: var(--bg-3-color) !important;
+    }
+    .course-block .main-info i {
+        filter: invert(100%) !important;
+    }
+    .course-block-collapsed i {
+        filter: inverT(100%) !important;
+    }
+    .course-wrapper .collapsed-block {
+        border-color: var(--border-color) !important;
+    }
+    
+    /* alert */
+    .alert-notification, .alert {
+        background-color: var(--accent-color) !important;
+        border-color: #0000 !important;
+        border-radius: 0px !important;
+    }
+    
+    /* buttons */
+    .btn {
+        background: var(--button-color) !important;
+        border: 1px solid var(--border-color) !important;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+    }
+    .btn:hover {
+        background: var(--hover-color) !important;
+    }
+    .btn i {
+        filter: invert(100%) !important;
+    }
+    .settings .btn i {
+        filter: invert(0%) !important;
+    }
+    .settings .btn-group {
+        border: 1px solid var(--border-color) !important;
+    }
+    .settings .btn-group li a.btn {
+        background: var(--button-color) !important;
+        border: none !important;
+    }
+    .settings .btn-group li a.btn:hover {
+        background: var(--hover-color) !important;
+    }
+    .settings .dropdown-menu li i {
+        filter: invert(100%) !important;
+    }
+    
+    /* dropdowns */
+    .dropdown-toggle {
+        background-color: var(--button-color) !important;
+        border: 1px solid var(--border-color) !important;
+        border-radius: 0px !important;
+    }
+    .dropdown-toggle .caret {
+        border-top-color: var(--text-color) !important;
+        border-bottom-color: var(--text-color) !important;
+    }
+    .dropdown-toggle:hover .caret {
+        border-top-color: var(--accent-color) !important;
+        border-bottom-color: var(--accent-color) !important;
+    }
+    .dropdown-toggle i {
+        filter: invert(100%) !important;
+    }
+    .dropdown-menu {
+        background-color: var(--button-color) !important;
+        border-radius: 0px !important;
+    }
+    .dropdown-menu li a {
+        background-color: #0000 !important;
+    }
+    .dropdown-menu li:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .dropdown-menu .divider {
+        background: var(--border-color) !important;
+    }
+    .wolfware-menu li a {
+        background-color: #0000 !important;
+    }
+    .wolfware-menu .dropdown {
+        border: none !important;
+    }
+    .wolfware-menu .dropdown .dropdown-toggle {
+        border: none !important;
+        border-left: 1px solid var(--border-color) !important;
+    }
+    .wolfware-menu .dropdown:first-child .dropdown-toggle {
+        border-left: none !important;
+    }
+    
+    #coursesTab {
+        border-bottom: 1px solid var(--border-color) !important;
+    }
+    #coursesTab .current a, #coursesTab .future a, #coursesTab .previous a, #coursesTab .project a, #coursesTab .outreach a {
+        background-color: var(--bg-2-color) !important;
+        border-bottom-color: var(--border-color) !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    #coursesTab .active a {
+        border-right: 1px solid var(--border-color) !important;
+        border-left: 1px solid var(--border-color) !important;
+        background-color: var(--accent-color) !important;
+    }
+    #coursesTab li a:hover {
+        background-color: var(--hover-color) !important;
+    }
+    #coursesTab .active a:hover {
+        background-color: var(--accent-color) !important;
+    }
+    
+    .breadcrumb-wrapper {
+        background: var(--bg-color) !important;
+        border-top-color: #0000 !important;
+    }
+    .course-heading-wrapper {
+        border-color: var(--border-color) !important;
+    }
+    .postnav {
+        background: var(--bg-color) !important;
+        border-color: #0000 !important;
+    }
+    .dropdown #category {
+        background-color: #0000 !important;
+        border: none !important;
+    }
+    
+    /* input */
+    input[type="text"], textarea {
+        background-color: var(--textarea-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    input[type="text"]:focus, textarea:focus {
+        box-shadow: none !important;
+    }
+    input[type="submit"] {
+        background-color: var(--button-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    input[type="submit"]:hover {
+        background-color: var(--hover-color) !important;
+    }
+    
+    /* select */
+    select {
+        background-color: var(--button-color) !important;
+        border-color: var(--border-color) !important;
+        border-radius: 0px !important;
+    }
+    
+    .ncstate-utility-bar-tools {
+        background-color: var(--bg-2-color) !important;
+    }
+    .ncstate-utility-bar-tools input {
+        background-color: var(--bg-3-color) !important;
+    }
+    .ncstate-utility-bar-links {
+        background-color: var(--bg-3-color) !important;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .25) !important;
+    }
+    
+    /* announcements */
+    .announcement {
+        background-color: var(--bg-3-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    
+    /* pagination */
+    .pagination ul li a {
+        background-color: var(--button-color) !important;
+        border-radius: 0px !important;
+        border-color: var(--border-color) !important;
+    }
+    .pagination ul li a:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .pagination ul .active span {
+        background-color: var(--accent-color) !important;
+        border-radius: 0px !important;
+        border-color: var(--border-color) !important;
+    }
+    .pagination ul .disabled span {
+        background-color: var(--bg-3-color) !important;
+        border-radius: 0px !important;
+        border-color: var(--border-color) !important;
+    }
+    
+    /* profile page */
+    form[name="profileForm"] h2 {
+        background-color: #0000 !important;
+        border-bottom: 1px solid var(--border-color) !important;
+        border-radius: 0px !important;
+    }
+    form[name="profileForm"] h2 img {
+        filter: invert(100%) !important;
+    }
+    form[name="profileForm"] legend {
+        border-color: var(--border-color) !important;
+    }
+    
+    /* modal */
+    .modal {
+        border-radius: 0px !important;
+        border: none !important;
+        background-color: var(--bg-color) !important;
+    }
+    .modal-body {
+        background-color: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .modal-header, .modal-footer {
+        background: var(--bg-color) !important;
+        border-color: var(--border-color) !important;
+    }
+}
+    
+@-moz-document url-prefix("https://wolfware.ncsu.edu/courses") {
+    .heading {
+        border-radius: 0px !important;
+        background-color: var(--bg-color) !important;
+        opacity: .8 !important;
+    }
+    .row, .maincontent-wrapper, .maincontent-wrapper > .container {
+        background-color: var(--bg-2-color) !important;
+    }
+    .course-rightcol {
+        background-color: var(--bg-3-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    .course-info {
+        background: none !important;
+    }
+    .instructors h3{
+        border-color: var(--border-color) !important;
+    }
+    .instructors-quick-list li a {
+        border-color: var(--border-color) !important;
+    }
+    .instructors-quick-list li a:hover {
+        background-color: var(--hover-color) !important;
+    }
+    .course-quick-info i {
+        filter: invert(100%) !important;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
