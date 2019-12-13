@@ -903,6 +903,144 @@
         filter: invert(100%) !important;
     }
 }
+
+@-moz-document domain("pages.github.ncsu.edu") {
+    a {
+        color: var(--accent-color) !important;
+    }
+    a:hover {
+        color: var(--link-hover-color) !important;
+    }
+    *:not(.triangle-left):not(.triangle-right) {
+        border-color: var(--border-color) !important;
+    }
+    body {
+        background-color: var(--bg-3-color) !important;
+    }
+    #main_content {
+        background-color: var(--bg-2-color);
+        color: var(--text-color) !important;
+    }
+    #main_content_wrap {
+        background-color: var(--bg-3-color) !important;
+    }
+    #wrapper h1, #wrapper h2, #wrapper h3 {
+        color: var(--text-color) !important;
+    }
+    #wrapper .callout h2 {
+        color: black !important;
+    }
+    .highlighter-rouge {
+        color: #ededed !important;
+        background-color: #555463 !important;
+    }
+    .navRow {
+        position: sticky !important;
+        top: 0px !important;
+        z-index: 9 !important;
+        border-bottom: 1px solid var(--border-color) !important;
+        padding: 5px !important;
+        margin-left: -.85% !important;
+        width: 101.7% !important;
+    }
+    .navRow, .prevPage, .nextPage {
+        background-color: var(--bg-3-color) !important;
+    }
+    #header_wrap .header_inner {
+        background-color: var(--bg-2-color) !important;
+    }
+    #header_wrap {
+        background-color: var(--bg-3-color) !important;
+    }
+    #tocSidenav {
+        background-color: var(--bg-3-color) !important;
+    }
+    #footer_wrap {
+        background-color: var(--bg-color) !important;
+    }
+    
+    /* navbar */
+    .ncstate-utility-bar-home > a {
+        color: #0000 !important;
+    }
+    #ncstate-utility-bar .ncstate-utility-bar-tools {
+        background: var(--bg-color) !important;
+    }
+        /* navbar dropdowns */
+        .wolfware-menu li:hover, .wolfware-menu li:focus {
+            background: var(--hover-color) !important;
+        }
+    
+        .wolfware-menu li:hover a, .wolfware-menu li:focus a {
+            background: none !important;
+        }
+
+        .wolfware-menu li + li{
+            border-color: var(--border-color) !important;
+        }
+
+        .wolfware-menu li a {
+            background: none;
+        }
+
+        .wolfware-menu .dropdown-menu {
+            background: var(--bg-3-color) !important;
+            border: 1px solid var(--border-color) !important;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .25) !important;
+        }
+
+        .wolfware-menu .dropdown-menu .divider {
+            background: var(--border-color) !important;
+        }
+
+        /* resources dropdown */
+        #ncstate-utility-bar .ncstate-utility-bar-links {
+            background: var(--bg-2-color) !important;
+            z-index: 10 !important;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .25) !important;
+        }
+
+        #ncstate-utility-bar .is-hidden {
+            box-shadow:none !important;
+        }
+
+        #ncstate-utility-bar .ncstate-utility-bar-links a {
+            color: var(--accent-color) !important;
+        }
+
+        #ncstate-utility-bar .ncstate-utility-bar-links a:hover {
+            color: var(--link-hover-color) !important;
+        }
+
+        /* search bar */
+        .ncstate-utility-bar-tools input {
+            background-color: var(--bg-3-color) !important;
+        }
+        .ncstate-utility-bar-tools #search-submit {
+            border: none !important;
+        }
+        .ncstate-utility-bar-tools #search-submit:hover {
+            background-color: var(--hover-color) !important;
+        }
+    
+    /* tables */
+    table, table thead tr th {
+        background-color: var(--textarea-color) !important;
+    }
+    table tbody tr:nth-of-type(2n+1) {
+        background-color: #455266 !important;
+        
+    }
+    table tbody tr {
+        background-color: #363f4d !important;
+        color: var(--text-color) !important;
+    }
+    table tbody tr:hover {
+        background-color: #2c343f !important;
+    }
+
+}
+
     
     
     
