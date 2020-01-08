@@ -329,6 +329,11 @@
         color: var(--link-hover-color) !important;
     }
     
+    /* sections */
+    .section {
+        border-color: var(--border-color) !important;
+    }
+    
     .node_category {
         background-color: var(--bg-3-color) !important;
         border-color: #0000 !important;
@@ -353,7 +358,7 @@
     }
 
     /* alert */
-    .alert-info {
+    .alert-info, .alert, .alert-block {
         background-color: var(--accent-color) !important;
     }
     
@@ -569,6 +574,24 @@
     }
     .atto_group {
         border-color: var(--border-color) !important;
+    }
+    .atto_info {
+        background-color: var(--bg-3-color) !important;
+    }
+    
+    /* data retention summary page */
+    #page-admin-tool-dataprivacy-summary .card {
+        border-color: var(--border-color) !important;
+    }
+    #page-admin-tool-dataprivacy-summary .card * {
+        border-color: var(--border-color) !important;
+    }
+    
+    .collapsible {
+        border-color: var(--border-color) !important;
+    }
+    .region_main_settings_menu_proxy {
+        background-color: #0000 !important;
     }
 }
 
