@@ -114,7 +114,7 @@
     "Light": "#488bdd",
     "Microsoft Dark": "#97C0FF",
     "Pink": "#73c2fb",
-    "Custom": "var(--custom-link-color)"
+    "Custom": "var(--custom-accent-color)"
 } @var color custom-link-color "Custom Accent Color" #ff6768
 
 @var select link-hover-color "Link Text Hover Color" {
@@ -601,6 +601,12 @@
         background-color: var(--textarea-color) !important;
         border-color: var(--border-color) !important;
     }
+    .table * {
+        border-color: var(--border-color) !important;
+    }
+    .table tr:nth-child(2n+1) > td {
+        background-color: var(--bg-3-color) !important;
+    }
 }
 @-moz-document url-prefix("https://wolfware.ncsu.edu") {
     body {
@@ -861,6 +867,23 @@
     .modal-header, .modal-footer {
         background: var(--bg-color) !important;
         border-color: var(--border-color) !important;
+    }
+    
+    /* login page */
+    #breadcrumb1 > .container {
+        background-color: var(--bg-2-color) !important;
+    }
+    .landing-callout-wrapper .landing-callout .target-callout {
+        background: var(--bg-3-color) !important;
+    }
+    .landing-callout-wrapper .landing-callout .search-button {
+        background: var(--accent-color) !important;
+        border-color: var(--accent-color) !important;
+        transition: background .15s ease-in-out !important;
+    }
+    .landing-callout-wrapper .landing-callout .search-button:hover {
+        background: var(--link-hover-color) !important;
+        transition: background .15s ease-in-out !important;
     }
 }
     
