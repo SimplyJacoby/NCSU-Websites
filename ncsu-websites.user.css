@@ -520,6 +520,9 @@
     .modal-content .containsadvancedelements {
         border-color: var(--border-color) !important;
     }
+    .calendar_event_course {
+        background-color: var(--accent-color) !important;
+    }
     
     /* calendar selector */
     .yui3-calendar-pane, .yui3-calendar-grid tbody td {
@@ -1074,7 +1077,10 @@
     table tbody tr:hover {
         background-color: #2c343f !important;
     }
-
+    
+    .callout *:not(a), #wrapper .callout h3 {
+        color: #000 !important;
+    }
 }
 
     
