@@ -954,14 +954,16 @@
         border-color: var(--border-color) !important;
     }
     body {
-        background-color: var(--bg-3-color) !important;
+        background-color: var(--bg-2-color) !important;
+        margin-right: 10% !important;
+        margin-left: 10% !important;
     }
     #main_content {
         background-color: var(--bg-2-color);
         color: var(--text-color) !important;
     }
     #main_content_wrap {
-        background-color: var(--bg-3-color) !important;
+        background-color: var(--bg-2-color) !important;
     }
     #wrapper h1, #wrapper h2, #wrapper h3 {
         color: var(--text-color) !important;
@@ -989,7 +991,7 @@
         background-color: var(--bg-2-color) !important;
     }
     #header_wrap {
-        background-color: var(--bg-3-color) !important;
+        background-color: var(--bg-2-color) !important;
     }
     #tocSidenav {
         background-color: var(--bg-3-color) !important;
