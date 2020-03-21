@@ -280,6 +280,12 @@
         background-color: #0000 !important;
     }
     
+    /* text area */
+    textarea {
+        background-color: var(--textarea-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    
     /* sidebar navigation */
     #nav-drawer {
         background-color: var(--bg-color) !important;
@@ -355,6 +361,9 @@
 
     #page-mod-assign-view .submissionlocked, #page-mod-assign-view .submissionstatusdraft, #page-mod-assign-view .submissionnotgraded {
         background: var(--yellow) !important;
+    }
+    #page-mod-quiz-view #intro, #page-mod-quiz-view #intro ul {
+        background-color: var(--bg-2-color) !important;
     }
 
     /* alert */
@@ -490,6 +499,32 @@
     .message-drawer .form-control {
         border-left: none !important;
     }
+    .message-drawer .list-group-item {
+        background-color: var(--bg-3-color) !important;
+    }
+    .message-drawer .badge {
+        background-color: var(--accent-color) !important;
+    }
+    .message-drawer .header-container .bg-white {
+        background-color: var(--bg-3-color) !important;
+    }
+    .message-drawer .body-container .message {
+        background-color: var(--bg-3-color) !important;
+    }
+    .message .tail {
+        border-bottom-color: var(--bg-3-color) !important;
+    }
+    .message-drawer .footer-container .bg-white{
+        background-color: var(--bg-2-color) !important;
+        border-top-color: var(--border-color) !important;
+    }
+    .message-drawer .footer-container .form-control {
+        border-left: solid 1px var(--border-color) !important;
+        background-color: var(--textarea-color) !important;
+    }
+    .message-drawer .fa-star {
+        color: #f1e815 !important;;
+    }
     
     /* announcements */
     .forumpost {
@@ -521,7 +556,8 @@
         border-color: var(--border-color) !important;
     }
     .calendar_event_course {
-        background-color: var(--accent-color) !important;
+        background-color: #0000 !important;
+        color: var(--text-color) !important;
     }
     
     /* calendar selector */
