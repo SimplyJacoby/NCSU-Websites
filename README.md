@@ -6,5 +6,5 @@
  ## Installation
   
   1. :inbox_tray: Install the extension, [Stylus](https://github.com/openstyles): [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-  2. :tv: Watch [this video](https://youtu.be/fCVvGwoF5cQ) on how to use Stylus. (optional but still recommended if installing as a UserStyle)
+  2. :tv: Watch [this video](https://youtu.be/fCVvGwoF5cQ) on how to use Stylus.
   3. [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/SimplyJacoby/NCSU-Websites/master/ncsu-websites.user.css)
