@@ -1,9 +1,7 @@
 <h1 align="center" style="font-size: 100px;">NCSU-Websites</h1>
 
 <h3 align="center">Covered Sites</h3>
-<p align="center">
- - Wolfware - Moodle - Shibboleth - Github Pages
- </p>
+<p align="center">Wolfware - Moodle - Shibboleth - Github Pages</p>
  
  ## Installation
   
