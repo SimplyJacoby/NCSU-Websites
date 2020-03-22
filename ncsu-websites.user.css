@@ -632,6 +632,11 @@
     .region_main_settings_menu_proxy {
         background-color: #0000 !important;
     }
+    
+    /* tags */
+    .tag {
+        background-color: var(--accent-color) !important;
+    }
 }
 
 @-moz-document domain("shib.ncsu.edu") {
