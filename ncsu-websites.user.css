@@ -52,7 +52,7 @@
     "Discord Dark": "#4A4D53",
     "Dracula": "#6272a4",
     "Light": "#d1d1d1",
-    "Microsoft Dark": "#1073D6",
+    "Microsoft Dark": "#4A4D53",
     "Pink": "#de3163",
     "Custom": "var(--custom-button-color)"
 } @var color custom-button-color "Custom Button Color" #3d424d
@@ -88,7 +88,7 @@
     "Discord Dark": "#666b74",
     "Dracula": "#596A9B",
     "Light": "#e2e2e2",
-    "Microsoft Dark": "#1A4B7D",
+    "Microsoft Dark": "#666b74",
     "Pink": "#ec5578",
     "Custom": "var(--custom-hover-color)"
 } @var color custom-hover-color "Custom Mouse Hover Color" #4a515e
@@ -112,8 +112,8 @@
     "Discord Dark": "#6680D7",
     "Dracula": "#66b2c2",
     "Light": "#488bdd",
-    "Microsoft Dark": "#97C0FF",
-    "Pink": "#73c2fb",
+    "Microsoft Dark": "#0078D7",
+    "Pink": "#4d1e98",
     "Custom": "var(--custom-accent-color)"
 } @var color custom-link-color "Custom Accent Color" #ff6768
 
@@ -125,7 +125,7 @@
     "Dracula": "#5FE0FC",
     "Light": "#74afe4",
     "Microsoft Dark": "#77ADFF",
-    "Pink": "#4da4e3",
+    "Pink": "#742ce6",
     "Custom": "var(--custom-link-hover-color)"
 } @var color custom-link-hover-color "Custom Link Text Hover Color" #c24e4e
 
@@ -139,7 +139,7 @@
         --faded-yellow: #aeb372;
         --gray-color: #798497;
         --dark-gray-color: #4a5775;
-        --test: #74afe4;
+        --test: #742ce6;
     }
     a:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
         color: var(--accent-color) !important;
