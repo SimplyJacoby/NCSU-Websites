@@ -406,6 +406,12 @@
         background-color: var(--textarea-color) !important;
         border-color: var(--border-color) !important;
     }
+    .dndupload-progress-outer {
+        background-color: var(--textarea-color) !important;
+    }
+    .dndupload-progress-inner {
+        background-color: #65e468 !important;
+    }
     
     /* dialogue popup */
     .moodle-dialogue-content {
