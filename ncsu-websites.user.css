@@ -643,6 +643,27 @@
     .tag {
         background-color: var(--accent-color) !important;
     }
+    
+    /* userplans */
+    .userplan {
+        border-color: var(--border-color) !important;
+    }
+    .userplan .phase .phasetasks {
+        background-color: var(--bg-3-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .userplan .phase dd.active, .userplan dt.active {
+        background-color: var(--accent-color) !important;
+        border-color: var(--border-color) !important;
+    }
+    .userplan dt {
+        border-color: var(--border-color) !important;
+    }
+    
+    #workshop-viewlet-yourgrades .grade {
+        background-color: var(--bg-3-color) !important;
+        border-color: var(--border-color) !important;
+    }
 }
 
 @-moz-document domain("shib.ncsu.edu") {
