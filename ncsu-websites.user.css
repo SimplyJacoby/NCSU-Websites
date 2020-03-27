@@ -340,6 +340,9 @@
     .section {
         border-color: var(--border-color) !important;
     }
+    .course-content .section-summary .section-summary-activities .activity-count {
+        color: var(--text-color) !important;
+    }
     
     .node_category {
         background-color: var(--bg-3-color) !important;
