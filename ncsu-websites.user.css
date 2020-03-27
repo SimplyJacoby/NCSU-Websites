@@ -36,7 +36,7 @@
 @var select bg-3-color "Tertiary Background Color" {
     "Arc Dark": "#4b5162",
     "Atom One Dark (Default)*": "#333842",
-    "Deep Dark": "#232938",
+    "Deep Dark": "#292929",
     "Discord Dark": "#42464D",
     "Dracula":"#686C8A",
     "Light": "#FAFAFA",
@@ -48,7 +48,7 @@
 @var select button-color "Button Color"{
     "Arc Dark": "#5294e2",
     "Atom One Dark (Default)*": "#3d424d",
-    "Deep Dark": "#006C69",
+    "Deep Dark": "#4A4D53",
     "Discord Dark": "#4A4D53",
     "Dracula":"#6272a4",
     "Light": "#A8FFEE",
@@ -60,7 +60,7 @@
 @var select textarea-color "Text Input Background Color" {
     "Arc Dark": "#7c818c",
     "Atom One Dark (Default)*": "#3d424d",
-    "Deep Dark": "#006C69",
+    "Deep Dark": "#4A4D53",
     "Discord Dark": "#4A4D53",
     "Dracula":"#81859E",
     "Light": "#F2F2F2",
@@ -84,7 +84,7 @@
 @var select hover-color "Mouse Hover Color" {
     "Arc Dark": "#2B7ADB",
     "Atom One Dark (Default)*": "#4a515e",
-    "Deep Dark": "#016964",
+    "Deep Dark": "#666b74",
     "Discord Dark": "#666b74",
     "Dracula":"#596A9B",
     "Light": "#79FFE4",
@@ -108,7 +108,7 @@
 @var select accent-color "Accent Color" {
     "Arc Dark": "#a59dbc",
     "Atom One Dark (Default)*": "#ff6768",
-    "Deep Dark": "#4AC0FF",
+    "Deep Dark": "#2b79b1",
     "Discord Dark": "#6680D7",
     "Dracula":"#8BE9FD",
     "Light": "#488bdd",
@@ -139,7 +139,7 @@
         --faded-yellow: #aeb372;
         --gray-color: #798497;
         --dark-gray-color: #4a5775;
-        --test: #a59dbc;
+        --test:#2b79b1;
     }
     a:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
         color: var(--accent-color) !important;
