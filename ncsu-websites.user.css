@@ -410,7 +410,7 @@
         background-color: var(--textarea-color) !important;
     }
     .dndupload-progress-inner {
-        background-color: #65e468 !important;
+        background-color: var(--green) !important;
     }
     
     /* dialogue popup */
@@ -663,6 +663,17 @@
     #workshop-viewlet-yourgrades .grade {
         background-color: var(--bg-3-color) !important;
         border-color: var(--border-color) !important;
+    }
+    
+    /* rubric */
+    .gradingform_rubric .criterion.odd {
+        background-color: var(--bg-3-color) !important;        
+    }
+    .gradingform_rubric .criterion.even {
+        background-color: var(--bg-2-color) !important;
+    }
+    .gradingform_rubric .score, .gradingform_rubric .score .scorevalue {
+        color: var(--green) !important;
     }
 }
 
@@ -1152,55 +1163,3 @@
         color: #000 !important;
     }
 }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
