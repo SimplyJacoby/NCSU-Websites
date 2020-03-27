@@ -74,7 +74,7 @@
     "Atom One Dark (Default)*": "#4a515e",
     "Deep Dark": "#454545",
     "Discord Dark": "#3E4145",
-    "Dracula":"#1C1D24",
+    "Dracula":"#363b45",
     "Light": "#efefef",
     "Microsoft Dark": "#333333",
     "Pink": "#fbaed2",
@@ -110,7 +110,7 @@
     "Atom One Dark (Default)*": "#ff6768",
     "Deep Dark": "#2b79b1",
     "Discord Dark": "#6680D7",
-    "Dracula":"#8BE9FD",
+    "Dracula":"#66b2c2",
     "Light": "#488bdd",
     "Microsoft Dark": "#97C0FF",
     "Pink": "#73c2fb",
@@ -139,7 +139,7 @@
         --faded-yellow: #aeb372;
         --gray-color: #798497;
         --dark-gray-color: #4a5775;
-        --test:#2b79b1;
+        --test: #363b45;
     }
     a:not(.list-group-item):not(.dropdown-item):not(.nav-link):not(.coursename) {
         color: var(--accent-color) !important;
