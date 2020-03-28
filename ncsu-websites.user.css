@@ -690,7 +690,7 @@
     .block-timeline .list-group-item {
         background-color: #0000 !important;
     }
-    .block-timeline .list-group-item h6 a:hover {
+    .block-timeline .list-group-item h6 a:hover, .block-timeline .list-group-item h6 a:focus {
         background-color: #0000 !important;
     }
 }
