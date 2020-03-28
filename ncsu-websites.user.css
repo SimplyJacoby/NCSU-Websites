@@ -685,6 +685,14 @@
     .gradingform_rubric .score, .gradingform_rubric .score .scorevalue {
         color: var(--green) !important;
     }
+    
+    /* timeline */
+    .block-timeline .list-group-item {
+        background-color: #0000 !important;
+    }
+    .block-timeline .list-group-item h6 a:hover {
+        background-color: #0000 !important;
+    }
 }
 
 @-moz-document domain("shib.ncsu.edu") {
