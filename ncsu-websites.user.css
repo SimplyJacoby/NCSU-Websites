@@ -131,7 +131,7 @@
 
 ==/UserStyle== */
 
-@-moz-document domain("moodle-courses1819.wolfware.ncsu.edu"), domain("moodle-projects.wolfware.ncsu.edu"), domain("moodle-courses1920.wolfware.ncsu.edu") {
+@-moz-document domain("moodle-courses1819.wolfware.ncsu.edu"), domain("moodle-projects.wolfware.ncsu.edu"), domain("moodle-courses1920.wolfware.ncsu.edu"), domain("moodle-courses2021.wolfware.ncsu.edu") {
     :root {
         --green: #3daf71;
         --yellow: #b8c04a;
@@ -493,49 +493,49 @@
     }
     
     /* messages */
-    .message-drawer .header-container .input-group-prepend .bg-white {
+    .message-app .header-container .input-group-prepend .bg-white {
         background-color: var(--textarea-color) !important;
     }
-    .message-drawer {
+    .message-app {
         background-color: var(--bg-color) !important;
     }
-    .message-drawer .body-container .bg-white {
+    .message-app .body-container .bg-white {
         background-color: var(--bg-color) !important;
     }
-    .message-drawer .border-bottom {
+    .message-app .border-bottom {
         border-color: var(--border-color) !important;
     }
-    .message-drawer .input-group-text {
+    .message-app .input-group-text {
         background-color: var(--textarea-color) !important;
         border-color: var(--border-color) !important;
     }
-    .message-drawer .form-control {
+    .message-app .form-control {
         border-left: none !important;
     }
-    .message-drawer .list-group-item {
+    .message-app .list-group-item {
         background-color: var(--bg-3-color) !important;
     }
-    .message-drawer .badge {
+    .message-app .badge {
         background-color: var(--accent-color) !important;
     }
-    .message-drawer .header-container .bg-white {
+    .message-app .header-container .bg-white {
         background-color: var(--bg-3-color) !important;
     }
-    .message-drawer .body-container .message {
+    .message-app .body-container .message {
         background-color: var(--bg-3-color) !important;
     }
     .message .tail {
         border-bottom-color: var(--bg-3-color) !important;
     }
-    .message-drawer .footer-container .bg-white {
+    .message-app .footer-container .bg-white {
         background-color: var(--bg-2-color) !important;
         border-top-color: var(--border-color) !important;
     }
-    .message-drawer .footer-container .form-control {
+    .message-app .footer-container .form-control {
         border-left: solid 1px var(--border-color) !important;
         background-color: var(--textarea-color) !important;
     }
-    .message-drawer .fa-star {
+    .message-app .fa-star {
         color: #f1e815 !important;;
     }
     
